@@ -14,5 +14,5 @@ $(TWEAK_NAME)_CFLAGS = -fobjc-arc -Wno-deprecated-declarations -Wno-unused-varia
 $(TWEAK_NAME)_LDFLAGS +=  -lresolv -lz -liconv lib/libdaubuoi.a lib/libmonostring.a linh_tinh/spam.a
 $(TWEAK_NAME)_FILES = ImGuiDrawView.mm $(wildcard Esp/*.mm) $(wildcard Esp/*.m) $(wildcard IMGUI/*.cpp) $(wildcard IMGUI/*.mm)
 
-include $(THEOS_MAKE_PATH)/tweak.mk
+#include $(THEOS_MAKE_PATH)/tweak.mk
 
