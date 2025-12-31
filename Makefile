@@ -1,4 +1,4 @@
-export THEOS=/Users/tuchi/theos
+export THEOS=/home/tuchi/theos
 ARCHS = arm64
 FINALPACKAGE = 1
 FOR_RELEASE = 1
